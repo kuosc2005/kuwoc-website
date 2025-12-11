@@ -3,7 +3,7 @@ title: Organizations
 description: Meet the organizations participating in KUWoC and explore their projects.
 template: splash
 ---
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, Badge } from '@astrojs/starlight/components';
 
 <style>{`
   .card-content img {
@@ -14,9 +14,16 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     display: block;
   }
   .tech-stack {
-    font-size: 0.9em;
-    color: #666;
     margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .tech-stack-label {
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-right: 0.3rem;
   }
   .contribution-info {
     font-size: 0.9em;
@@ -40,7 +47,12 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   KDE is an international free software community that develops free and open-source software. Known for the KDE Plasma Desktop and a large collection of applications.
   
   <div class="tech-stack">
-    **Tech Stack:** C++, Qt, QML, Python, CMake
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="C++" variant="tip" />
+    <Badge text="Qt" variant="tip" />
+    <Badge text="QML" variant="tip" />
+    <Badge text="Python" variant="tip" />
+    <Badge text="CMake" variant="tip" />
   </div>
   
   <div class="contribution-info">
@@ -59,7 +71,13 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   Humanitarian OpenStreetMap Team (HOTOSM) applies mapping and open data principles to humanitarian response and economic development.
   
   <div class="tech-stack">
-    **Tech Stack:** Python, JavaScript, React, PostgreSQL, PostGIS, Docker
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="Python" variant="tip" />
+    <Badge text="JavaScript" variant="tip" />
+    <Badge text="React" variant="tip" />
+    <Badge text="PostgreSQL" variant="tip" />
+    <Badge text="PostGIS" variant="tip" />
+    <Badge text="Docker" variant="tip" />
   </div>
   
   <div class="contribution-info">
@@ -78,7 +96,12 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   Open Source Geospatial Foundation Nepal chapter, working on geospatial and mapping technologies to support open data initiatives.
   
   <div class="tech-stack">
-    **Tech Stack:** Python, JavaScript, GeoJSON, PostGIS, GDAL
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="Python" variant="tip" />
+    <Badge text="JavaScript" variant="tip" />
+    <Badge text="GeoJSON" variant="tip" />
+    <Badge text="PostGIS" variant="tip" />
+    <Badge text="GDAL" variant="tip" />
   </div>
   
   <div class="contribution-info">
@@ -97,7 +120,13 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   Rahat is a blockchain-based financial access platform for humanitarian aid distribution. Making relief distribution transparent and efficient.
   
   <div class="tech-stack">
-    **Tech Stack:** TypeScript, React, Node.js, Ethereum, Solidity, NestJS
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="TypeScript" variant="tip" />
+    <Badge text="React" variant="tip" />
+    <Badge text="Node.js" variant="tip" />
+    <Badge text="Ethereum" variant="tip" />
+    <Badge text="Solidity" variant="tip" />
+    <Badge text="NestJS" variant="tip" />
   </div>
   
   <div class="contribution-info">
@@ -114,7 +143,11 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   Raylib is a simple and easy-to-use library to enjoy videogames programming. Perfect for those interested in game development and graphics programming.
   
   <div class="tech-stack">
-    **Tech Stack:** C, OpenGL, GLFW, with bindings for 70+ languages
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="C" variant="tip" />
+    <Badge text="OpenGL" variant="tip" />
+    <Badge text="GLFW" variant="tip" />
+    <Badge text="70+ bindings" variant="note" />
   </div>
   
   <div class="contribution-info">
@@ -131,7 +164,11 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Built with Rust for speed and efficiency.
   
   <div class="tech-stack">
-    **Tech Stack:** Rust, GPUI, Tree-sitter, WebAssembly
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="Rust" variant="tip" />
+    <Badge text="GPUI" variant="tip" />
+    <Badge text="Tree-sitter" variant="tip" />
+    <Badge text="WebAssembly" variant="tip" />
   </div>
   
   <div class="contribution-info">
@@ -150,7 +187,12 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   An innovative lab focused on building modern technology solutions and contributing to open-source development.
   
   <div class="tech-stack">
-    **Tech Stack:** TypeScript, JavaScript, React, Node.js, Web3
+    <span class="tech-stack-label">Tech Stack:</span>
+    <Badge text="TypeScript" variant="tip" />
+    <Badge text="JavaScript" variant="tip" />
+    <Badge text="React" variant="tip" />
+    <Badge text="Node.js" variant="tip" />
+    <Badge text="Web3" variant="tip" />
   </div>
   
   <div class="contribution-info">
