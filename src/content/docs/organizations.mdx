@@ -3,7 +3,6 @@ title: Organizations
 description: Meet the organizations participating in KUWoC and explore their projects.
 template: splash
 ---
-
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <style>{`
@@ -14,13 +13,24 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
     margin: 0 auto;
     display: block;
   }
+  .tech-stack {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  .contribution-info {
+    font-size: 0.9em;
+    background: var(--sl-color-bg-sidebar);
+    border: 1px solid var(--sl-color-gray-5);
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
 `}</style>
 
 We're excited to have these amazing organizations participating in KUWoC! Each organization brings unique projects and opportunities for contributors to make meaningful open-source contributions.
 
 <CardGrid>
-
-
 <Card title="KDE" icon="linux">
   
   <div class="card-content">
@@ -29,8 +39,15 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   
   KDE is an international free software community that develops free and open-source software. Known for the KDE Plasma Desktop and a large collection of applications.
   
+  <div class="tech-stack">
+    **Tech Stack:** C++, Qt, QML, Python, CMake
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Open to contributions across any KDE repository
+  </div>
+  
   [View Organization →](https://github.com/kde)
-
 </Card>
 
 <Card title="HOTOSM" icon="seti:html">
@@ -41,8 +58,15 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   
   Humanitarian OpenStreetMap Team (HOTOSM) applies mapping and open data principles to humanitarian response and economic development.
   
+  <div class="tech-stack">
+    **Tech Stack:** Python, JavaScript, React, PostgreSQL, PostGIS, Docker
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Open to contributions across any HOTOSM repository
+  </div>
+  
   [View Organization →](https://github.com/hotosm)
-
 </Card>
 
 <Card title="OSGeo Nepal" icon="seti:json">
@@ -53,10 +77,15 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   
   Open Source Geospatial Foundation Nepal chapter, working on geospatial and mapping technologies to support open data initiatives.
   
-  **Projects:**
-  - [OSMSG](https://github.com/osgeonepal/OSMSG)
-  - [geotile](https://github.com/osgeonepal/geotile)
-
+  <div class="tech-stack">
+    **Tech Stack:** Python, JavaScript, GeoJSON, PostGIS, GDAL
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Contribute to specific projects:
+    - [OSMSG](https://github.com/osgeonepal/OSMSG)
+    - [geotile](https://github.com/osgeonepal/geotile)
+  </div>
 </Card>
 
 <Card title="Rahat" icon="seti:ethereum">
@@ -67,8 +96,13 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   
   Rahat is a blockchain-based financial access platform for humanitarian aid distribution. Making relief distribution transparent and efficient.
   
-  [View Repository →](https://github.com/rahataid/rahat-platform)
-
+  <div class="tech-stack">
+    **Tech Stack:** TypeScript, React, Node.js, Ethereum, Solidity, NestJS
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Contribute to [rahat-platform](https://github.com/rahataid/rahat-platform)
+  </div>
 </Card>
 
 <Card title="Raylib" icon="seti:c">
@@ -79,8 +113,13 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
    
   Raylib is a simple and easy-to-use library to enjoy videogames programming. Perfect for those interested in game development and graphics programming.
   
-  [View Repository →](https://github.com/raysan5/raylib)
-
+  <div class="tech-stack">
+    **Tech Stack:** C, OpenGL, GLFW, with bindings for 70+ languages
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Contribute to [raylib](https://github.com/raysan5/raylib)
+  </div>
 </Card>
 
 <Card title="Zed" icon="seti:rust">
@@ -91,8 +130,15 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   
   Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Built with Rust for speed and efficiency.
   
+  <div class="tech-stack">
+    **Tech Stack:** Rust, GPUI, Tree-sitter, WebAssembly
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Open to contributions across any Zed repository
+  </div>
+  
   [View Organization →](https://github.com/zed-industries)
-
 </Card>
 
 <Card title="Stacks Lab" icon="seti:javascript">
@@ -100,12 +146,17 @@ We're excited to have these amazing organizations participating in KUWoC! Each o
   <div class="card-content">
     <img src="https://avatars.githubusercontent.com/u/228020177?s=200&v=4" alt="Stacks Lab Logo" />
   </div>
+  
   An innovative lab focused on building modern technology solutions and contributing to open-source development.
-
+  
+  <div class="tech-stack">
+    **Tech Stack:** TypeScript, JavaScript, React, Node.js, Web3
+  </div>
+  
+  <div class="contribution-info">
+    📝 **Contributions:** Open to contributions across any Stacks Lab repository
+  </div>
+  
   [View Organization →](https://github.com/stx-labs) 
 </Card>
-
-
 </CardGrid>
-
----
