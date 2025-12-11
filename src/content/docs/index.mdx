@@ -1,6 +1,6 @@
 ---
 title: Winter Of Code 
-description: Get started building your docs site with Starlight.
+description: The official website of KU Winter of Code hosted by Kathmandu University Opensource Community 
 template: splash
 hero:
   image:
@@ -11,29 +11,37 @@ hero:
       icon: right-arrow
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Badge,Card, CardGrid } from '@astrojs/starlight/components';
 
 ## ___Timeline___
 <CardGrid stagger>
 
 	<Card title="Intro To Contributions" icon="pen">
+		<Badge text="Dec-12" variant="success" style={{ fontStyle: 'italic' }} />
 		Organizations participate in the program, and contributors begin engaging with their projects.
 	</Card>
 
 	<Card title="Organizations Introduce their Project" icon="laptop">
+		<Badge text="Dec-12" variant="success" style={{ fontStyle: 'italic' }} />
+
 		Interested organizations showcase their projects and provide details for potential contributors.
 	</Card>
 
 	<Card title="Announcement of Projects & Idea Submissions" icon="open-book">
+		<Badge text="Jan-12" variant="success" style={{ fontStyle: 'italic' }} />
 		Organizations and contributors propose project ideas and collaborate to finalize concepts for contributors to work on.
 	</Card>
 
 	<Card title="Project Submission & Completion" icon="approve-check">
+		<Badge text="Feb-12 - Feb-16" variant="success" style={{ fontStyle: 'italic' }} />
+
 		Contributors submit their completed projects. Incomplete submissions are reviewed and evaluated by assigned mentors.
 	</Card>
 
 	<Card title="Rewards" icon="seti:favicon">
-		Contributors are evaluated based on the quality of their work and their overall contributions to the organization’s projects.
+		<Badge text="Sep-19" variant="success" style={{ fontStyle: 'italic' }} />
+
+		Contributors are evaluated and awarded based on the quality of their work and their overall contributions to the organization’s projects with swags on Software Freedom Day (SFD).
 	</Card>
 
 </CardGrid>
