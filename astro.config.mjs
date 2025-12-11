@@ -7,6 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'KUWoC',
+      description: 'KU Winter of Code is an event where organizations collaborate with KUOSC to foster the opensource culture.', 
 		customCss:[
 			'./src/styles/custom.css',
 			'@fontsource/pixelify-sans/400.css',
