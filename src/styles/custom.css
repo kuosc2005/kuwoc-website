@@ -5,6 +5,10 @@
   --sl-text-lg: 1.25rem; 
 }
 
+:root[data-theme='dark'] .hero img {
+  filter: invert(1);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Pixelify Sans', sans-serif;
 }
