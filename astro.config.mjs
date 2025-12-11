@@ -14,7 +14,7 @@ export default defineConfig({
 		],
       sidebar: [{
 		  label:"leadingNavLinks",
-		  items:['contribute' , 'organizations']
+		  items:['contribute' , 'organizations', 'about']
 	  }], 
      plugins: [
        starlightUtils({
