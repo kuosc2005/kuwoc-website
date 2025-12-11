@@ -1,0 +1,8 @@
+:root {
+  --sl-font: 'Pixelify Sans', sans-serif;
+  --sl-font-system: 'Pixelify Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pixelify Sans', sans-serif;
+}

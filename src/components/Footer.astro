@@ -1,0 +1,12 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+
+<footer style="text-align: center; margin-top: 2rem;">
+	<p>For the ♥ of open source</p>
+</footer>
