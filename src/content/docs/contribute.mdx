@@ -1,34 +1,169 @@
 ---
 title: Contribute
-description: Help us make KUWoC better for everyone
+description: Guide for contributing to KUWoC participating organizations
 template: splash
 ---
 
-We welcome contributions from the community! Whether you're fixing a typo, improving documentation, or adding new features, your help is appreciated.
+Welcome to KUWoC! This guide will help you get started with contributing to the participating organizations' projects.
 
-## How to Contribute
+## Understanding KUWoC Contributions
 
-- **Report Issues:** Found a bug or have a suggestion? Open an issue on our repository.
-- **Submit Pull Requests:** Have a fix or improvement? Submit a PR for review.
-- **Improve Documentation:** Help others by clarifying or expanding our docs.
-- **Share Feedback:** Let us know how we can improve the event experience.
+KUWoC is a 2-month long program where you contribute to open-source projects from participating organizations. Your contributions help real-world projects while you learn and grow as a developer.
 
-:::note[Before Contributing]
-Please review our organization's [Contributing Guidelines](https://github.com/kuosc2005) to understand our code of conduct, development workflow, and submission requirements.
+## Finding Projects
+
+Visit the [Organizations](/organizations) page to browse all participating organizations and their projects. Each organization has different focus areas, tech stacks, and contribution opportunities.
+
+## Before You Start
+
+:::caution[Read Organization Guidelines]
+**Each organization has their own contribution guidelines.** Before making any contributions, you must:
+- Read the organization's specific contributing guidelines thoroughly
+- Understand their code of conduct
+- Follow their development workflow
+- Respect their coding standards and conventions
 :::
 
-## Getting Started
+### What to Look For
 
-Ready to contribute? Here's how:
+When exploring an organization's repository, check for:
 
-1. **Fork the repository** on GitHub
-2. **Clone your fork** to your local machine
-3. **Create a new branch** for your changes
-4. **Make your changes** and commit them
-5. **Push to your fork** and submit a pull request
+- **CONTRIBUTING.md** - Detailed contribution guidelines
+- **CODE_OF_CONDUCT.md** - Community standards and expectations
+- **README.md** - Project overview and setup instructions
+- **Issues labeled** `good-first-issue`, `junior-job`,`good-first-pr` - Great starting points
+- **Pull request templates** - Required format for submissions
 
-Need help? Check out our [GitHub repository](https://github.com/kuosc2005) or reach out to the team if you have questions.
+## General Contribution Workflow
+
+While each organization may have specific requirements, here's a typical workflow:
+
+### 1. Choose a Project
+
+Browse the [Organizations](/organizations) page and pick a project that:
+- Matches your interests and skills
+- Has clear documentation
+- Has open issues you can work on
+
+### 2. Set Up Your Environment
+
+```bash
+# Fork the repository on GitHub
+
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
+
+# Add upstream remote
+git remote add upstream https://github.com/ORGANIZATION/PROJECT_NAME.git
+
+# Install dependencies (check project README)
+npm install  # or yarn, pip, etc.
+```
+
+### 3. Find an Issue
+
+- Look for issues labeled `good-first-issue`, `kuwoc`, `help-wanted`, or `beginner-friendly`
+- Read the issue description carefully
+- Comment on the issue to express your interest before starting work
+- Wait for maintainer approval if required
+
+### 4. Make Your Changes
+
+```bash
+# Create a new branch
+git checkout -b feature/your-feature-name
+
+# Make your changes
+# Write clean, documented code
+# Follow the organization's style guide
+
+# Test your changes thoroughly
+npm test  # or the project's test command
+
+# Commit with clear messages
+git commit -m "Add: feature description"
+```
+
+### 5. Submit a Pull Request
+
+```bash
+# Push to your fork
+git push origin feature/your-feature-name
+
+# Open a pull request on GitHub
+# Fill out the PR template completely
+# Reference the issue you're addressing
+# Provide clear description of your changes
+```
+
+### 6. Respond to Feedback
+
+- Maintainers may request changes
+- Respond promptly and professionally
+- Make requested changes and push updates
+- Engage in constructive discussion
+
+## Types of Contributions
+
+You can contribute in many ways:
+
+- **Code:** Bug fixes, new features, performance improvements
+- **Documentation:** Improving README, tutorials, API docs
+- **Testing:** Writing tests, reporting bugs, testing features
+
+## Best Practices
+
+### Communication
+
+- Be respectful and professional
+- Ask questions when unclear
+- Provide context in your issues and PRs
+- Respond to maintainer feedback promptly
+
+### Code Quality
+
+- Write clean, readable code
+- Follow the project's coding conventions
+- Add comments where necessary
+- Include tests for new features
+- Keep commits atomic and well-described
+
+### Before Submitting
+
+-  Test your changes thoroughly
+-  Update documentation if needed
+-  Follow the organization's commit message format
+-  Ensure your code passes all tests
+-  Rebase on latest upstream if needed
+
+## Getting Help
+
+If you're stuck or have questions:
+
+1. **Check the organization's documentation** - Most answers are there
+2. **Search existing issues** - Someone may have asked before
+3. **Ask in the issue comments** - Maintainers are there to help
+4. **Join community channels** - Discord, Slack, or other platforms
+5. **Reach out to KUWoC organizers** - For program-related questions
+
+## Important Reminders
+
+:::note[Organization-Specific Rules]
+Every organization is different. Always prioritize their specific guidelines over this general guide. When in doubt, ask the maintainers!
+:::
+
+:::tip[Quality Over Quantity]
+Focus on making meaningful contributions rather than numerous small ones. A well-thought-out PR is more valuable than many rushed ones.
+:::
+
+:::caution[Respect Maintainers' Time]
+Maintainers are often volunteers. Be patient, follow their guidelines, and make their job easier by submitting high-quality, well-documented contributions.
+:::
+
+## Ready to Contribute?
+
+Head over to the [Organizations](/organizations) page, find a project that excites you, read their contribution guidelines thoroughly, and start making a difference!
 
 ---
 
-*Thank you for contributing to KUWoC!*
+*Happy Contributing! Remember, every expert was once a beginner. Don't be afraid to ask questions and learn along the way.*
